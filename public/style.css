@@ -1,0 +1,159 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+}
+
+h1{
+  margin-top:0;
+  margin-bottom:0;
+  color: #4c4e61;
+}
+
+h3 {
+  color: #4c4e61;
+}
+
+p {
+  color: #a3a5ae;
+
+}
+
+footer {
+  margin-top: 5%;
+  background-color: blue;
+  height: 100px;
+}
+
+/* ===============================
+              Flexbox
+  ================================*/
+
+  .wrapper,
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+  }
+
+.header {
+  max-width: 440px;
+  flex-basis: 368px;
+  text-align: center;
+  max-height: fit-content;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+
+}
+
+.card {
+  max-width: 330px;
+  flex-basis: 330px;
+  height: 250px;
+  max-height: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 20px 5px #efefef;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top:5%;
+
+}
+
+.card img {
+  align-self: flex-end;
+  margin-top:5px;
+
+}
+
+.supervisor {
+  border-top:6px solid 	#ea5353;
+
+}
+
+.team-builder {
+  border-top:6px solid #45d3d3;
+
+}
+
+.karma {
+  border-top:6px solid #fcaf4a;
+
+}
+
+.calculator {
+   border-top:6px solid #549ef2;
+
+}
+
+.supervisor,
+.team-builder,
+.karma,
+.calculator {
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+
+
+}
+
+
+.attribution { font-size: 11px; text-align: center; padding-top: 3%; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+#headline {
+  font-weight: 200;
+}
+
+#headline2 {
+  font-weight: 600;
+}
+
+@media (min-width: 861px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+  }
+  .column-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 550px;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-grow: 0;
+  }
+
+  img {
+    display: flex;
+  }
+
+  .team-builder,
+  .karma {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .supervisor,
+  .calculator {
+    max-width: 368px;
+  }
+
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
