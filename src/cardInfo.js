@@ -1,12 +1,15 @@
-import reactSvg from "react-svg";
+import supervisor from "./images/icon-supervisor.svg"
+import teamBuilder from "./images/icon-team-builder.svg"
+import karma from "./images/icon-karma.svg"
+import calculator from "./images/icon-calculator.svg"
 
 const cardInfo = [
     {
         cardName: "supervisor card",
         headline: "Supervisor",
         desc: "Monitors activity to identify project roadblocks",
-        image: "",
-        alt: "supervisor"
+        image: supervisor,
+        alt: ""
     
     },
 
@@ -14,7 +17,7 @@ const cardInfo = [
         cardName: "team-builder card",
         headline: "Team Builder",
         desc: "Scans our talent network to create the optimal team for your project",
-        image: "supervisor",
+        image: teamBuilder,
         alt: "teamBuilder"
 
     
@@ -24,7 +27,7 @@ const cardInfo = [
         cardName: "karma card",
         headline: "Karma",
         desc: "Regularly evaluates our talent to ensure quality",
-        image: "supervisor",
+        image: karma,
         alt: "Karma"
     
     },
@@ -33,7 +36,7 @@ const cardInfo = [
         cardName: "calculator card",
         headline: "Calculator",
         desc: "Uses data from past projects to provide better delivery estimates",
-        image: "supervisor",
+        image: calculator,
         alt: "Calculator"
     
     }
