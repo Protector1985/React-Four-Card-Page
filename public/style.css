@@ -116,6 +116,10 @@ footer {
   font-weight: 600;
 }
 
+#hovered {
+  background-color: "green";
+}
+
 @media (min-width: 861px) {
   .main-container {
     display: flex;
