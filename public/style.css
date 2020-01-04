@@ -67,6 +67,11 @@ footer {
 
 }
 
+.slideInSlot {
+  width: 355px;
+  height: 275px;
+}
+
 .card img {
   align-self: flex-end;
   margin-top:5px;
@@ -102,6 +107,10 @@ footer {
   align-self: center;
 
 
+}
+
+.column-container {
+  position: relative;
 }
 
 

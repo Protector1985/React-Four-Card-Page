@@ -9,6 +9,7 @@ function Card(props) {
         backgroundColor: isHovered ? "#ededed" : "white"
     });
     
+    
 
     
     function handleHover() {
