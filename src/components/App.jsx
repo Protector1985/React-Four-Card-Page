@@ -8,42 +8,42 @@ import {useSpring, animated} from "react-spring";
 
 function App() {
     
-    let slideInTop = useSpring ({
+    const slideInTop = useSpring ({
         from: {marginTop: -3500},
         to: {marginTop: 0},
-        delay:1500,
+        delay:2000,
         config: {
-            tension:500,
+            tension:450,
         }
         
     })
 
-    let slideInBottom = useSpring ({
+    const slideInBottom = useSpring ({
         from: {marginTop: -3000},
-        to:  {marginTop: 0},
-        delay:2000,
-        config: {
-            tension:500,
-        }
-        
-    })
-    
-    let slideInLeft = useSpring ({
-        from: {marginTop: -1500},
         to:  {marginTop: 0},
         delay:2500,
         config: {
-            tension:500,
+            tension:450,
         }
         
     })
     
-    let slideInRight = useSpring ({
+    const slideInLeft = useSpring ({
+        from: {marginTop: -1500},
+        to:  {marginTop: 0},
+        delay:1500,
+        config: {
+            tension:450,
+        }
+        
+    })
+    
+    const slideInRight = useSpring ({
         from: {marginTop: -1500},
         to: {marginTop: 0},
         delay:3000,
         config: {
-            tension:500,
+            tension:450,
         }
         
     })

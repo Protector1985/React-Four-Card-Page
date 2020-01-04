@@ -7,7 +7,7 @@ function Header() {
       to: {opacity:1},
       delay: 3500,
       config: {
-      friction: 100
+      friction: 120,
       }
     });
     
