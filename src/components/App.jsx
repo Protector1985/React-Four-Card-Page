@@ -58,11 +58,13 @@ function App() {
         <div className="slideInSlot cardOne">
         <animated.div style={slideInLeft}>
         <Card 
-        nameClass={cardInfo[0].cardName}
-        headline={cardInfo[0].headline} 
-        descriptionText={cardInfo[0].desc}
-        image={cardInfo[0].image}
-        alt={cardInfo[0].alt}/>
+            nameClass={cardInfo[0].cardName}
+            headline={cardInfo[0].headline} 
+            descriptionText={cardInfo[0].desc}
+            image={cardInfo[0].image}
+            alt={cardInfo[0].alt}
+                
+            />
         </animated.div>
         </div>
         

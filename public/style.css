@@ -42,6 +42,7 @@ footer {
   flex-basis: 368px;
   text-align: center;
   max-height: fit-content;
+  margin-bottom: -185px;
 }
 
 .main-container {
